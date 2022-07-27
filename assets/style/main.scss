@@ -6,3 +6,12 @@ $softpur: #eaeaf4;
 $darpur: #777790;
 $medpur: #b4b5c9;
 $lilpur: #f9f9fb;
+
+.navbar-tp{
+    padding-top: 30px;
+    .navbar-nav{
+        .active{
+            color: $purple !important;
+        }
+    }
+}

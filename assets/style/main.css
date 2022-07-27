@@ -1,1 +1,6 @@
-/*# sourceMappingURL=main.css.map */
+.navbar-tp {
+  padding-top: 30px;
+}
+.navbar-tp .navbar-nav .active {
+  color: #563ad6 !important;
+}/*# sourceMappingURL=main.css.map */
