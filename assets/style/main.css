@@ -10,8 +10,9 @@ body {
 }
 .navbar-tp .navbar-nav .active {
   color: #563ad6 !important;
-  font-weight: 600;
+  font-weight: 500 !important;
 }
 .navbar-tp .navbar-nav .nav-link {
   color: #02044a;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
