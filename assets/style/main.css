@@ -2,6 +2,23 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+.btn-master, .btn-secondary, .btn-primary {
+  padding: 15px 26px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 0px;
+}
+
+.btn-primary {
+  background-color: #563ad6;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #f9f9fb;
+  color: #777790;
+}
+
 .navbar-tp {
   padding-top: 30px;
 }
@@ -25,14 +42,7 @@ body {
 }
 .sales .copywriting .description {
   font-weight: 400;
-  color: #777790;
-  font-size: 18px;
+  color: #9B9CB7;
+  font-size: 16px;
   line-height: 30px;
-}
-.sales .copywriting .button .btn-primary {
-  background-color: #563ad6;
-}
-.sales .copywriting .button .btn-secondary {
-  background-color: #f9f9fb;
-  color: #777790;
 }/*# sourceMappingURL=main.css.map */
