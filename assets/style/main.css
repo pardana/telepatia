@@ -37,6 +37,13 @@ body {
 .sales {
   padding-top: 100px;
 }
+.sales .brand {
+  margin-top: 50px;
+  text-align: center;
+}
+.sales .brand .brand-logos {
+  width: 724px;
+}
 .sales .copywriting {
   padding-left: 100px;
 }
