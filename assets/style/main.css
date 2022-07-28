@@ -16,7 +16,7 @@ body {
 
 .btn-secondary {
   background-color: #f9f9fb;
-  color: #777790;
+  color: #eaeaf4;
 }
 
 .navbar-tp {
@@ -34,15 +34,24 @@ body {
   font-weight: 400;
 }
 
+.sales {
+  padding-top: 100px;
+}
+.sales .copywriting {
+  padding-left: 100px;
+}
 .sales .copywriting .header {
   font-weight: 600;
   color: #02044a;
   font-size: 46px;
   line-height: 60px;
+  margin-top: 100px;
 }
 .sales .copywriting .description {
   font-weight: 400;
-  color: #9B9CB7;
+  color: #9b9cb7;
   font-size: 16px;
   line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=main.css.map */

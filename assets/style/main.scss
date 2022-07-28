@@ -6,7 +6,7 @@ $softpur: #eaeaf4;
 $darpur: #777790;
 $medpur: #b4b5c9;
 $lilpur: #f9f9fb;
-$newpur: #9B9CB7;
+$newpur: #9b9cb7;
 $font-weights: (
   "regular": 400,
   "medium": 500,
@@ -17,23 +17,23 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
-.btn-master{
+.btn-master {
   padding: 15px 26px;
   border-radius: 10px;
-  font-weight: map-get($map: $font-weights, $key: semiBold) ;
+  font-weight: map-get($map: $font-weights, $key: semiBold);
   border: 0px;
 }
 
-.btn-primary{
+.btn-primary {
   @extend .btn-master;
   background-color: $purple;
   color: $white;
 }
 
-.btn-secondary{
+.btn-secondary {
   @extend .btn-master;
   background-color: $lilpur;
-  color: $darpur;
+  color: $softpur;
 }
 
 .navbar-tp {
@@ -48,24 +48,29 @@ body {
     }
     .nav-link {
       color: $navy;
-      font-weight: map-get($map: $font-weights, $key: regular) 
+      font-weight: map-get($map: $font-weights, $key: regular);
     }
   }
 }
 
-.sales{
-    .copywriting{
-        .header{
-            font-weight: map-get($map: $font-weights, $key: semiBold);
-            color: $navy;
-            font-size: 46px;
-            line-height: 60px; 
-        }
-        .description{
-            font-weight: map-get($map: $font-weights, $key: regular);
-            color: $newpur;
-            font-size: 16px;
-            line-height: 30px;
-        }
+.sales {
+  padding-top: 100px;
+  .copywriting {
+    padding-left: 100px;
+    .header {
+      font-weight: map-get($map: $font-weights, $key: semiBold);
+      color: $navy;
+      font-size: 46px;
+      line-height: 60px;
+      margin-top: 100px;
     }
+    .description {
+      font-weight: map-get($map: $font-weights, $key: regular);
+      color: $newpur;
+      font-size: 16px;
+      line-height: 30px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+  }
 }
