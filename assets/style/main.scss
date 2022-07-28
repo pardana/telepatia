@@ -27,14 +27,59 @@ body {
   background-color: $lilpur;
   padding-bottom: 70px;
   margin-top: 20px;
-  
+
   .master-card {
     padding: 30px;
     border-radius: 22px;
+    .btn{
+      width: 100%;
+      margin-top: 20px;
+    }
+    .item-benefit{
+      margin-bottom: 20px;
+      
+      p{
+        font-size: 16px;
+        font-weight: map-get($map: $font-weights, $key: medium);
+      }
+      img{
+        float: left;
+        margin-right: 8px;
+      }
+    }
+    .name{
+      font-size: 18px;
+      font-weight: map-get($map: $font-weights, $key: medium);
+    }
+    .price{
+      font-size: 36px;
+      font-weight: map-get($map: $font-weights, $key: semiBold);
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+    .support{
+      font-size: 16px;
+      font-weight: map-get($map: $font-weights, $key: regular);
+      margin-bottom: 40px;
+    }
   }
   .basic-card {
     @extend .master-card;
     background-color: $white;
+    .name{
+      color: $navy;
+    }
+    .price{
+      color: $navy;
+    }
+    .support{
+      color: $newpur;
+    }
+    .item-benefit{
+      p{
+        color: $navy;
+      }
+    }
   }
 }
 
