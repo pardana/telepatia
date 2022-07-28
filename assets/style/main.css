@@ -41,6 +41,13 @@ body {
   padding-bottom: 70px;
   margin-top: 20px;
 }
+.pricing .master-card, .pricing .basic-card {
+  padding: 30px;
+  border-radius: 22px;
+}
+.pricing .basic-card {
+  background-color: #fff;
+}
 
 .navbar-tp {
   padding-top: 30px;

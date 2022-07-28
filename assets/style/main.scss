@@ -23,11 +23,19 @@ body {
   margin-bottom: 40px;
 }
 
-.pricing{
+.pricing {
   background-color: $lilpur;
-  // padding-top: 10px;
   padding-bottom: 70px;
   margin-top: 20px;
+  
+  .master-card {
+    padding: 30px;
+    border-radius: 22px;
+  }
+  .basic-card {
+    @extend .master-card;
+    background-color: $white;
+  }
 }
 
 .navbar-tp {
@@ -61,6 +69,6 @@ body {
   }
 
   .copywriting {
-    padding-left: 100px;  
+    padding-left: 100px;
   }
 }
