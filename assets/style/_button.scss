@@ -1,0 +1,19 @@
+@import "./typography";
+.btn-master {
+  padding: 15px 26px;
+  border-radius: 10px;
+  font-weight: map-get($map: $font-weights, $key: semiBold);
+  border: 0px;
+}
+
+.btn-primary {
+  @extend .btn-master;
+  background-color: $purple;
+  color: $white;
+}
+
+.btn-secondary {
+  @extend .btn-master;
+  background-color: $lilpur;
+  color: $darpur;
+}

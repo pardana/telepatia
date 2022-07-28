@@ -1,39 +1,9 @@
-$purple: #563ad6;
-$aqua: #3abad6;
-$navy: #02044a;
-$white: #fff;
-$softpur: #eaeaf4;
-$darpur: #777790;
-$medpur: #b4b5c9;
-$lilpur: #f9f9fb;
-$newpur: #9b9cb7;
-$font-weights: (
-  "regular": 400,
-  "medium": 500,
-  "semiBold": 600,
-);
+@import "./colors";
+@import "./button";
+@import "./typography";
 
 body {
   font-family: "Rubik", sans-serif;
-}
-
-.btn-master {
-  padding: 15px 26px;
-  border-radius: 10px;
-  font-weight: map-get($map: $font-weights, $key: semiBold);
-  border: 0px;
-}
-
-.btn-primary {
-  @extend .btn-master;
-  background-color: $purple;
-  color: $white;
-}
-
-.btn-secondary {
-  @extend .btn-master;
-  background-color: $lilpur;
-  color: $softpur;
 }
 
 .navbar-tp {

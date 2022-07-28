@@ -1,7 +1,3 @@
-body {
-  font-family: "Rubik", sans-serif;
-}
-
 .btn-master, .btn-secondary, .btn-primary {
   padding: 15px 26px;
   border-radius: 10px;
@@ -16,7 +12,11 @@ body {
 
 .btn-secondary {
   background-color: #f9f9fb;
-  color: #eaeaf4;
+  color: #777790;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
 }
 
 .navbar-tp {
