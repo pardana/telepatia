@@ -17,3 +17,9 @@
   background-color: $lilpur;
   color: $darpur;
 }
+
+.btn-third{
+  @extend .btn-master;
+  background-color: lightseagreen;
+  color: white;
+}
